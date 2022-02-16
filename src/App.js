@@ -7,6 +7,7 @@ import { AiFillExclamationCircle } from 'react-icons/ai';
 import { BsFillArrowDownCircleFill } from 'react-icons/bs';
 import { AiFillEye } from 'react-icons/ai';
 import { BiMessageError } from 'react-icons/bi';
+import img1 from './img1.png';
 
 function App() {
   return (
@@ -152,7 +153,9 @@ function App() {
             </h4>
           </div>
 
-          <div className="logo"></div>
+           <div>
+            <img src={img1} alt="img" className="logo" />
+          </div>
         </div>
       </div>
     </div>
